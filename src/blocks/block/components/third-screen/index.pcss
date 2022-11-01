@@ -2,7 +2,8 @@
 .container {
    position: relative;
    margin: 100px auto 800px;
-   max-width: 1472px
+   max-width: 1472px;
+   display: inline-block;
 
 }
 
@@ -11,7 +12,7 @@
 }
 
 .contentBlob {
-    max-width: 90vw;
+    max-width: 100vw;
 }
 
 .contentWrapper {
@@ -72,6 +73,51 @@ ul {
     z-index: 10;
     top: 100px;
     right: 350px;
+}
+
+
+
+
+
+@media (max-width: 960px) {
+
+    .contentTitle {
+        font-size: 20px;
+    }
+
+    .contentInfo, .listItem {
+        font-size: 18px;
+    }
+
+    .washingMachine {
+        width: 350px;
+    }
+
+    .racoon {
+        width: 250px;
+    }
+
+    .firstPlane {
+        top: 140px;
+        right: 200px;
+    }
+
+    .contentSmall {
+        width: 400px;
+        left: 25px;
+        top: 10px;
+    }
+
+    .contentBig {
+        width: 880px;
+        left: 25px;
+        top: 10px
+    }
+
+    .mainBlob, .smallBlob {
+        max-width: 100%;
+    }
+
 }
 
 

@@ -2,7 +2,6 @@
     import style from './index.pcss';
     export let title;
     export let subtitle;
-
 </script>
 
 <header class={style.container}>

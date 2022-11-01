@@ -1,6 +1,8 @@
 <script>
-    import style from './index.pcss';
     import { _ } from 'svelte-i18n';
+    import { Swiper, SwiperSlide } from 'swiper/svelte';
+
+    import style from './index.pcss';
     import HeaderTitle from '../header-title/index.svelte';
     import LeftBlob from '../../assets/images/second-screen/blob_left.svg';
     import CenterBlob from '../../assets/images/second-screen/blob-center.svg';
@@ -9,10 +11,7 @@
     import IconPost from '../../assets/icons/icon-post.svg';
     import IconShop from '../../assets/icons/icon-shopping.svg';
     import BlobInfo from '../blob-information/index.svelte';
-    import { Swiper, SwiperSlide } from 'swiper/svelte';
     import 'swiper/swiper-bundle.css';
-
-
 </script>
 
 <section>
@@ -22,10 +21,8 @@
                 pagination
                 class={style.mySwiper}
                 spaceBetween={10}
-                slidesPerView={1}
+                slidesPerView={3}
                 scrollbar={{ draggable: true, clickable: true }}
-                on:slideChange={() => console.log('slide change')}
-                on:swiper={(e) => console.log(e.detail[0])}
         >
             <SwiperSlide>
                 <BlobInfo

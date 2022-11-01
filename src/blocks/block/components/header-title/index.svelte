@@ -1,7 +1,7 @@
 <script>
     import style from './index.pcss';
     export let header;
-    export let subtitle = undefined;
+    export let subtitle;
 </script>
 
 <div class={style.headerContainer}>

@@ -1,7 +1,6 @@
 {
   "name": "svelte-test",
   "version": "1.0.0",
-  "homepage": "https://floydezus.github.io/svelte-test",
   "private": true,
   "scripts": {
     "dev": "rollup -c -w",

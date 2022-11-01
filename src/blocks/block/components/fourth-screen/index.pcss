@@ -48,7 +48,6 @@
     font-size: 32px;
     line-height: 110%;
     max-width: 250px;
-    //white-space: nowrap;
 }
 
 .infoBody {
@@ -64,7 +63,6 @@
     left: 100px;
     top: 100px;
 
-    //transform: matrix(0.98, 0.55, -0.18, 0.89, 0, 0);
 }
 
 .cardOuter {
@@ -72,10 +70,6 @@
     position: absolute;
     width: 400px;
     height: 276px;
-    //left: 48.5px;
-    //top: -2.63px;
-
-    /* Purple/500 */
 
     border-radius: 32px;
 
@@ -87,8 +81,6 @@
     position: absolute;
     width: 757px;
     height: 641px;
-    //left: -148.15px;
-    //top: -140.3px;
 
     background: #C5B4E3;
     transform: matrix(0.98, 0.55, -0.18, 0.89, 0, 0);
@@ -98,10 +90,6 @@
     position: absolute;
     width: 438px;
     height: 276px;
-    //left: 49px;
-    //top: -2.63px;
-
-    /* gray/400 */
 
     background: #A1A1AA;
     border-radius: 31px;
@@ -112,12 +100,9 @@
     position: absolute;
     width: 523px;
     height: 289px;
-    //left: 11px;
-    //top: -23.42px;
 
     background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(62px);
-    /* Note: backdrop-filter has minimal browser support */
 
     border-radius: 31px;
     transform: matrix(0.98, 0.55, -0.18, 0.89, 0, 0);
@@ -191,7 +176,6 @@
     top: 100px;
     left: 15px;
 
-    //transform: matrix(0.96, -0.48, 0.23, 0.91, 0, 0);
 
 }
 
@@ -207,5 +191,75 @@
     position: absolute;
     top: 175px;
     left: 20px;
+
+}
+
+.maxWidth100 {
+    max-width: 100%;
+}
+
+@media (max-width: 960px) {
+
+    .contentLeft {
+        width: 415px;
+        height: 430px;
+
+    }
+
+    .contentRight {
+        left: 50%;
+        width: 425px;
+        height: 430px;
+    }
+
+    .cardOuter {
+        width: 230px;
+        height: 180px;
+        left: -80px;
+    }
+
+    .cardOuterRight {
+        width: 250px;
+        height: 180px;
+        left: -200px;
+        top: 100px;
+    }
+
+    .cardShadowRight {
+        width: 250px;
+        height: 180px;
+        left: -201px;
+        top: 100px;
+    }
+
+    .infoHeader {
+        font-size: 20px;
+    }
+
+    .infoBody {
+        font-size: 18px;
+    }
+
+    .prizeBox {
+        width: 425px;
+    }
+
+    .cardTextTop {
+        font-size: 15px;
+    }
+
+    .cardTextMid {
+        font-size: 29px;
+        top: 80px;
+    }
+
+    .cardTextBottom {
+        font-size: 13px;
+        top: 130px;
+    }
+
+    .leftText {
+        margin-top: 320px;
+    }
 
 }
