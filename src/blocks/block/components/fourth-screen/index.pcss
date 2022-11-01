@@ -1,0 +1,211 @@
+.content {
+    position: relative;
+    margin: 100px auto 1000px;
+    padding: 0 28px;
+    max-width: 1472px;
+}
+
+.contentLeft, .contentRight {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contentLeft {
+    width: 682px;
+    height: 708px;
+
+}
+
+.contentRight {
+    left: 50%;
+    width: 696px;
+    height: 708px;
+}
+
+.infoBlock {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.infoText {
+    margin-left: 75px;
+}
+
+
+.infoBody, .infoHeader {
+    font-family: 'GTEestiPro', Arial, sans-serif;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.infoHeader {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 110%;
+    max-width: 250px;
+    //white-space: nowrap;
+}
+
+.infoBody {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+.cardBase {
+    position: absolute;
+    width: 600px;
+    height: 289px;
+    left: 100px;
+    top: 100px;
+
+    //transform: matrix(0.98, 0.55, -0.18, 0.89, 0, 0);
+}
+
+.cardOuter {
+
+    position: absolute;
+    width: 400px;
+    height: 276px;
+    //left: 48.5px;
+    //top: -2.63px;
+
+    /* Purple/500 */
+
+    border-radius: 32px;
+
+    background: #956FDB;
+    transform: matrix(0.98, 0.55, -0.18, 0.89, 0, 0);
+}
+
+.cardInner1 {
+    position: absolute;
+    width: 757px;
+    height: 641px;
+    //left: -148.15px;
+    //top: -140.3px;
+
+    background: #C5B4E3;
+    transform: matrix(0.98, 0.55, -0.18, 0.89, 0, 0);
+}
+
+.cardInner2 {
+    position: absolute;
+    width: 438px;
+    height: 276px;
+    //left: 49px;
+    //top: -2.63px;
+
+    /* gray/400 */
+
+    background: #A1A1AA;
+    border-radius: 31px;
+    transform: matrix(0.98, 0.55, -0.18, 0.89, 0, 0);
+}
+
+.cardFilter {
+    position: absolute;
+    width: 523px;
+    height: 289px;
+    //left: 11px;
+    //top: -23.42px;
+
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(62px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 31px;
+    transform: matrix(0.98, 0.55, -0.18, 0.89, 0, 0);
+}
+
+.cardBaseRight {
+    z-index: 10;
+    position: absolute;
+    width: 400px;
+    height: 271px;
+    left: 380px;
+    top: 0;
+
+}
+
+.cardOuterRight {
+
+    z-index: 11;
+    position: absolute;
+    width: 350px;
+    height: 259px;
+    left: -32.62px;
+    top: 168px;
+
+    /* Purple/500 */
+    border-radius: 29px;
+    background: #956FDB;
+    transform: matrix(0.96, -0.48, 0.23, 0.91, 0, 0);
+}
+
+.cardShadowRight {
+    z-index: 9;
+    position: absolute;
+    width: 350px;
+    height: 259px;
+    left: -34px;
+    top: 168px;
+
+    /* gray/400 */
+
+    background: black;
+    border-radius: 29.2866px;
+    transform: matrix(0.96, -0.48, 0.23, 0.91, 0, 0);
+}
+
+.leftText {
+    margin-top: 540px;
+}
+
+.cardTextTop {
+    color: #FFF;
+    text-align: left;
+    font-size: 30px;
+    transform: scaleX(1.4);
+    position: absolute;
+    left: 30px;
+    top: 25px;
+}
+
+.cardTextMid {
+
+    font-family: 'GTEestiPro', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 116%;
+    background: linear-gradient(85.08deg, #FFFFFF 36.48%, rgba(255, 255, 255, 0) 224.26%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    position: absolute;
+    top: 100px;
+    left: 15px;
+
+    //transform: matrix(0.96, -0.48, 0.23, 0.91, 0, 0);
+
+}
+
+.cardTextBottom {
+
+    font-family: 'GTEestiPro', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    background: linear-gradient(87.52deg, #FFFFFF 58.27%, rgba(255, 255, 255, 0) 229.91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 175px;
+    left: 20px;
+
+}
